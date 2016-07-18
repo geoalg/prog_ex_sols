@@ -3826,7 +3826,7 @@ fi
 #MDL_HAVE_OPENGL
 #AX_CHECK_GLUT
 #GNASH_PATH_OPENGL
-GLUT_LIBS="-lglut"
+GLUT_LIBS="-lglut -lGL -lGLU"
 
 AQSIS_CHECK_FLTK
 { echo "$as_me:$LINENO: checking for /usr/local/lib/libantlr.a" >&5
