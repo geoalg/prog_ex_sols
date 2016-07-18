@@ -4,8 +4,8 @@ sandbin_PROGRAMS = chap12ex3
 
 AM_CPPFLAGS = -I../.. $(OPENGL_CFLAGS)
 
-chap12ex3_LDADD = $(OPENGL_LIBS) $(GLUT_LIBS) \
-	../../libgasandbox/libgasandbox.a \
+chap12ex3_LDADD = ../../libgasandbox/libgasandbox.a \
+	$(OPENGL_LIBS) $(GLUT_LIBS) \
 	../../libgasandbox/libgasandboxparse.a  \
 	 $(ANTLR_LIBS)
 
