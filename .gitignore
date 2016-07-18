@@ -1,3 +1,4 @@
 Makefile
 .deps
 config.status
+*.a
