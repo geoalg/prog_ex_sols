@@ -154,7 +154,7 @@ top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 sandbindir = $(bindir)/ga_sandbox
 AM_CPPFLAGS = -I../.. $(OPENGL_CFLAGS)
-chap14ex1_LDADD = $(OPENGL_LIBS) $(GLUT_LIBS) ../../libgasandbox/libgasandbox.a ../../qhull-2003.1/src/libqhull.a
+chap14ex1_LDADD = ../../libgasandbox/libgasandbox.a $(OPENGL_LIBS) $(GLUT_LIBS) ../../qhull-2003.1/src/libqhull.a
 chap14ex1_SOURCES = chap14ex1.cpp
 noinst_HEADERS = 
 all: all-am
